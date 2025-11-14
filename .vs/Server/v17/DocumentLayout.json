@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "D:\\Unity\\Server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F4579B2-A4D7-3DB0-79A1-9E3D45589605}|Assembly-CSharp.csproj|d:\\unity\\server\\assets\\scripts\\networkui_ngo_lan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F4579B2-A4D7-3DB0-79A1-9E3D45589605}|Assembly-CSharp.csproj|d:\\unity\\server\\assets\\scripts\\namebillboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4579B2-A4D7-3DB0-79A1-9E3D45589605}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\namebillboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4579B2-A4D7-3DB0-79A1-9E3D45589605}|Assembly-CSharp.csproj|d:\\unity\\server\\assets\\scripts\\spawnpointregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4579B2-A4D7-3DB0-79A1-9E3D45589605}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnpointregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4579B2-A4D7-3DB0-79A1-9E3D45589605}|Assembly-CSharp.csproj|D:\\Unity\\Server\\assets\\scripts\\networkui_ngo_lan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F4579B2-A4D7-3DB0-79A1-9E3D45589605}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\networkui_ngo_lan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F4579B2-A4D7-3DB0-79A1-9E3D45589605}|Assembly-CSharp.csproj|d:\\unity\\server\\assets\\scripts\\headhpbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F4579B2-A4D7-3DB0-79A1-9E3D45589605}|Assembly-CSharp.csproj|D:\\Unity\\Server\\assets\\scripts\\headhpbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F4579B2-A4D7-3DB0-79A1-9E3D45589605}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\headhpbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -39,19 +47,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NetworkUI_NGO_LAN.cs",
-              "DocumentMoniker": "D:\\Unity\\Server\\Assets\\Scripts\\NetworkUI_NGO_LAN.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\NetworkUI_NGO_LAN.cs",
-              "ToolTip": "D:\\Unity\\Server\\Assets\\Scripts\\NetworkUI_NGO_LAN.cs",
-              "RelativeToolTip": "Assets\\Scripts\\NetworkUI_NGO_LAN.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAywDoAAAArAAAAAAAAAA==",
+              "Title": "NameBillboard.cs",
+              "DocumentMoniker": "D:\\Unity\\Server\\Assets\\Scripts\\NameBillboard.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NameBillboard.cs",
+              "ToolTip": "D:\\Unity\\Server\\Assets\\Scripts\\NameBillboard.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NameBillboard.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAQwDAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T09:06:35.442Z",
+              "WhenOpened": "2025-11-14T08:32:25.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SpawnPointRegistry.cs",
+              "DocumentMoniker": "D:\\Unity\\Server\\Assets\\Scripts\\SpawnPointRegistry.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnPointRegistry.cs",
+              "ToolTip": "D:\\Unity\\Server\\Assets\\Scripts\\SpawnPointRegistry.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpawnPointRegistry.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T08:20:47.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NetworkUI_NGO_LAN.cs",
+              "DocumentMoniker": "D:\\Unity\\Server\\Assets\\Scripts\\NetworkUI_NGO_LAN.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NetworkUI_NGO_LAN.cs",
+              "ToolTip": "D:\\Unity\\Server\\Assets\\Scripts\\NetworkUI_NGO_LAN.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NetworkUI_NGO_LAN.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAwDoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T09:06:35.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "HeadHPBar.cs",
               "DocumentMoniker": "D:\\Unity\\Server\\Assets\\Scripts\\HeadHPBar.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HeadHPBar.cs",
@@ -59,8 +92,7 @@
               "RelativeToolTip": "Assets\\Scripts\\HeadHPBar.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAAwBcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T08:47:15.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T08:47:15.206Z"
             }
           ]
         }
