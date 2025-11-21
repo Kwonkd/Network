@@ -21,7 +21,7 @@ public class NetworkUI_NGO_LAN : MonoBehaviour
         {
             if (string.IsNullOrEmpty(addressInput.text) == true)
             {
-                addressInput.text = "127.0.0.1";
+                addressInput.text = "0.0.0.0";
             }
         }
         if (portInput != null)
@@ -36,6 +36,7 @@ public class NetworkUI_NGO_LAN : MonoBehaviour
 
     void Update()
     {
+        Debug.Log(addressInput.text);
         timer = timer + Time.deltaTime;
         if (timer >= refreshInterval)
         {
@@ -58,7 +59,7 @@ public class NetworkUI_NGO_LAN : MonoBehaviour
 
         UnityTransport utp = NetworkManager.Singleton.NetworkConfig.NetworkTransport as UnityTransport;
         if (utp == null)
-        {
+        {   
             SetStatus("No Transport");
             return;
         }
@@ -78,7 +79,7 @@ public class NetworkUI_NGO_LAN : MonoBehaviour
         }
 
         // 호스트는 포트만 보정(주소는 의미 거의 없음)
-        utp.SetConnectionData("127.0.0.1", port);
+        utp.SetConnectionData("0.0.0.0", port);
 
         bool okHost = NetworkManager.Singleton.StartHost();
         if (okHost == true)
@@ -110,7 +111,7 @@ public class NetworkUI_NGO_LAN : MonoBehaviour
             return;
         }
 
-        string addr = "127.0.0.1";
+        string addr = "0.0.0.0";
         ushort port = 7777;
 
         if (addressInput != null)
